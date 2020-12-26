@@ -1,13 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    etc (1.1.0)
-    passenger (6.0.5)
-      etc
+    passenger (6.0.7)
       rack
       rake (>= 0.8.1)
     rack (1.6.13)
-    rake (13.0.1)
+    rake (13.0.3)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
@@ -20,5 +18,8 @@ DEPENDENCIES
   passenger (>= 6.0.5)
   sinatra (= 1.1.0)
 
+RUBY VERSION
+   ruby 3.0.0p0
+
 BUNDLED WITH
-   2.1.4
+   2.2.3
